@@ -3,57 +3,148 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - CV</title>
+    <title>Tran Thai Huu Loc - CV</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             line-height: 1.6;
             color: #333;
-            max-width: 800px;
+            max-width: 900px;
             margin: 0 auto;
             padding: 20px;
+            background-color: #f4f4f4;
         }
-        h1, h2 {
+        .container {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1, h2, h3 {
             color: #2c3e50;
         }
+        h1 {
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
         .section {
-            margin-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        .job-title {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .job-period {
+            font-style: italic;
+            color: #7f8c8d;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        .publication {
+            margin-bottom: 15px;
+        }
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .skill-item {
+            background-color: #3498db;
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 0.9em;
         }
     </style>
 </head>
 <body>
-    <h1>Your Name</h1>
-    <p>Obstetrician and Gynecologist | Bioinformatician</p>
+    <div class="container">
+        <h1>Tran Thai Huu Loc</h1>
+        <p>Obstetrician and Gynecologist | Bioinformatician</p>
 
-    <div class="section">
-        <h2>Professional Summary</h2>
-        <p>I am an obstetrician and gynecologist with a specialized focus on women's health. My background encompasses a unique blend of programming, mathematics, and bioinformatics...</p>
+        <div class="section">
+            <h2>Professional Summary</h2>
+            <p>I am an obstetrician and gynecologist with a specialized focus on women's health. My background encompasses a unique blend of programming, mathematics, and bioinformatics. This multidisciplinary expertise has empowered me to apply advanced analytical techniques to address pressing challenges in women's health, leading to innovative, data-driven solutions that enhance patient care.</p>
+        </div>
+
+        <div class="section">
+            <h2>Education</h2>
+            <p><strong>Doctor of Medicine (M.D.) – 6 years program</strong><br>
+            School of medicine - Vietnam National University - Ho Chi Minh city | 2013 - 2019</p>
+        </div>
+
+        <div class="section">
+            <h2>Work Experience</h2>
+            <div>
+                <p class="job-title">Obstetrician and Gynecologist</p>
+                <p class="job-period">Department of Obstetrics and Gynecology, My Duc Hospital, Ho Chi Minh | 1/2021 – present</p>
+                <ul>
+                    <li>Manage prenatal care and address pregnancy-related complications.</li>
+                    <li>Perform surgical interventions, including cesarean sections and laparoscopies.</li>
+                    <li>Diagnose and treat female reproductive disorders.</li>
+                    <li>Provide routine health check-ups and contraceptive counseling.</li>
+                    <li>Collaborate with medical professionals for comprehensive patient care.</li>
+                </ul>
+            </div>
+            <div>
+                <p class="job-title">Bioinformatician, Single Cell Analysis</p>
+                <p class="job-period">BioTuring company, San Diego, California | 10/2019 – 4/2020</p>
+                <ul>
+                    <li>Analyzed single cell sequencing data to extract meaningful biological insights.</li>
+                    <li>Implemented and optimized algorithms for single cell data processing and visualization.</li>
+                    <li>Collaborated with biologists to interpret single cell results in a biological context.</li>
+                    <li>Developed and maintained pipelines for single cell data preprocessing, clustering, and differential expression analysis.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Publications</h2>
+            <div class="publication">
+                <p>1. Ghozy, S., Dung, N. M., Morra, M. E., et al. (2020). Efficacy of kinesio taping in treatment of shoulder pain and disability: A systematic review and meta-analysis of randomised controlled trials. Physiotherapy, 107, 176-188.</p>
+            </div>
+            <div class="publication">
+                <p>2. Le, T., Phan, T., Pham, M., et al. (2020). BBrowser: Making single-cell data easily accessible. BioRxiv, 2020-12.</p>
+            </div>
+            <!-- Add more publications as needed -->
+        </div>
+
+        <div class="section">
+            <h2>Skills</h2>
+            <h3>Bioinformatics</h3>
+            <div class="skills-list">
+                <span class="skill-item">Python</span>
+                <span class="skill-item">R</span>
+                <span class="skill-item">Linux</span>
+                <span class="skill-item">GitHub</span>
+                <span class="skill-item">Neural Networks</span>
+                <span class="skill-item">Single Cell Analysis</span>
+                <span class="skill-item">Epigenetic Data Analysis</span>
+            </div>
+            <h3>Biostatistics</h3>
+            <div class="skills-list">
+                <span class="skill-item">Statistical Analysis</span>
+                <span class="skill-item">Experimental Design</span>
+                <span class="skill-item">Multivariate Analysis</span>
+                <span class="skill-item">Survival Analysis</span>
+                <span class="skill-item">Epidemiological Methods</span>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Languages</h2>
+            <p>English (Full Professional Proficiency); Vietnamese (Native)</p>
+        </div>
+
+        <div class="section">
+            <h2>Professional Memberships</h2>
+            <ul>
+                <li>International Society of Ultrasound in Obstetrics and Gynecology (ISUOG)</li>
+                <li>Fetal Medicine Foundation (FMF)</li>
+                <li>The Asia & Oceania Federation of Obstetrics & Gynaecology (AOFOG)</li>
+            </ul>
+        </div>
     </div>
-
-    <div class="section">
-        <h2>Education</h2>
-        <p>Doctor of Medicine (M.D.) – 6 years program<br>
-        School of medicine - Vietnam National University - Ho Chi Minh city | 2013 - 2019</p>
-    </div>
-
-    <div class="section">
-        <h2>Work Experience</h2>
-        <h3>Obstetrician and Gynecologist | My Duc Hospital, Ho Chi Minh | 1/2021 – present</h3>
-        <ul>
-            <li>Manage prenatal care and address pregnancy-related complications.</li>
-            <li>Perform surgical interventions, including cesarean sections and laparoscopies.</li>
-            <!-- Add more bullet points -->
-        </ul>
-
-        <h3>Bioinformatician, Single Cell Analysis | BioTuring company | 10/2019 – 4/2020</h3>
-        <ul>
-            <li>Analyze single cell sequencing data to extract meaningful biological insights.</li>
-            <li>Implement and optimize algorithms for single cell data processing and visualization.</li>
-            <!-- Add more bullet points -->
-        </ul>
-    </div>
-
-    <!-- Add more sections for Publications, Presentations, Skills, etc. -->
-
 </body>
 </html>
